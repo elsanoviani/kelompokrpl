@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Bagi{
+	public static void main(String [] args)
+	{
+		 Scanner a=new Scanner(System.in);
+		 float x,y,z;
+		 System.out.print("Masukan nilai ke-1 : ");
+		 x=a.nextInt();
+		 System.out.println();
+		 System.out.print("MAsukan nilai ke-2 : ");
+		 y=a.nextInt();
+		 System.out.println();
+		 z=x/y;
+		 System.out.print("hasil pembagian = " +z);
+	}
+}
